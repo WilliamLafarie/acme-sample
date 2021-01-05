@@ -19,6 +19,15 @@
   })(window,document,'script','dataLayer','GTM-5PWW9VJ');</script>
   <!-- End Google Tag Manager -->
 
+  <script>
+    function trackProduct(lien) {
+      window.dataLayer.push({
+        'event': 'Lien vers la page du produit',
+        'lien': lien,
+      });
+    }
+    </script>
+
   <!-- plugins -->
   
   <link rel="stylesheet" href="./../plugins/bootstrap/bootstrap.min.css ">
